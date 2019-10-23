@@ -1,0 +1,68 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/ClientApp/dist
+/ClientApp/tmp
+/ClientApp/out-tsc
+/ClientApp/app-builds
+/ClientApp/release
+/ClientApp/main.js
+/ClientApp/src/**/*.js
+/ClientApp/!src/karma.conf.js
+/ClientApp/*.js.map
+
+# dependencies
+/ClientApp/node_modules
+
+# IDEs and editors
+/ClientApp/.idea
+/ClientApp/.project
+/ClientApp/.classpath
+/ClientApp/.c9/
+/ClientApp/*.launch
+/ClientApp/.settings/
+/ClientApp/*.sublime-workspace
+
+# IDE - VSCode
+/ClientApp/.vscode/*
+/ClientApp/.vscode/settings.json
+/ClientApp/!.vscode/tasks.json
+/ClientApp/!.vscode/launch.json
+/ClientApp/!.vscode/extensions.json
+
+# misc
+/ClientApp/.sass-cache
+/ClientApp/connect.lock
+/ClientApp/coverage
+/ClientApp/libpeerconnection.log
+/ClientApp/npm-debug.log
+/ClientApp/testem.log
+/ClientApp/typings
+/ClientApp/package-lock.json
+
+# e2e
+/ClientApp/e2e/*.js
+/ClientApp/!/e2e/protractor.conf.js
+/ClientApp/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+# Backend
+/Backend-TypeScript-Node/node_modules/*
+/Backend-TypeScript-Node/.vscode/*
+/Backend-TypeScript-Node/.vscode/settings.json
+/Backend-TypeScript-Node/!.vscode/tasks.json
+/Backend-TypeScript-Node/!.vscode/launch.json
+/Backend-TypeScript-Node/!.vscode/extensions.json
+
+/Backend-TypeScript-Node/.sass-cache
+/Backend-TypeScript-Node/connect.lock
+/Backend-TypeScript-Node/coverage
+/Backend-TypeScript-Node/libpeerconnection.log
+/Backend-TypeScript-Node/npm-debug.log
+/Backend-TypeScript-Node/testem.log
+/Backend-TypeScript-Node/typings
+/Backend-TypeScript-Node/package-lock.json
